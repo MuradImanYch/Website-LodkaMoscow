@@ -221,7 +221,7 @@ h2 {
     position: relative;
 }
 .ourBoats .inner .slider img {
-    min-width: 100%;
+    min-width: 50%;
     min-height: 100%;
     object-fit: contain;
 }
@@ -487,17 +487,19 @@ footer span {
     }
     .ourBoats article h3 {
         font-size: 80px;
-        width: 700px;
+        width: 600px;
         height: 400px;
+        margin-left: 40px;
     }
     .ourBoats article p {
         font-size: 25px;
-        width: 90%;
-        margin: 0;
+        width: 80%;
+        margin: 0 0 0 40px;
     }
     .ourBoats article button {
         min-width: 400px;
         margin-top: 70px;
+        margin-left: 40px;
     }
     .gallery .wrap div img {
         width: 750px;
