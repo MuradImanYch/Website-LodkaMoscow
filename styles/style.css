@@ -251,7 +251,7 @@ h2 {
 }
 .ourBoats article h3 {
     width: 450px;
-    height: auto;
+    height: 200px;
     font-family: 'HelveticaNeueCyrBold';
     font-size: 54px;
     line-height: 91%;
@@ -278,6 +278,7 @@ h2 {
     font-weight: 900;
     width: 350px;
     margin: 0;
+    cursor: pointer;
 }
 .gallery {
     position: relative;
@@ -415,7 +416,7 @@ footer span {
     font-weight: 550px;
     color: #fff;
     letter-spacing: 1.2px;
-}
+} 
 
 
 @media (min-width: 1680px) {
@@ -485,16 +486,18 @@ footer span {
         height: 15px;
     }
     .ourBoats article h3 {
-        font-size: 120px;
-        width: 500px;
-        height: 260px;
+        font-size: 80px;
+        width: 700px;
+        height: 400px;
     }
     .ourBoats article p {
-        font-size: 30px;
+        font-size: 25px;
+        width: 90%;
+        margin: 0;
     }
     .ourBoats article button {
-        width: 240px;
-        margin-top: 140px;
+        min-width: 400px;
+        margin-top: 70px;
     }
     .gallery .wrap div img {
         width: 750px;
@@ -542,5 +545,8 @@ footer span {
     }
     .video {
         margin: 240px 0 0 0;
+    }
+    .ourBoats article {
+        width: 700px;
     }
 }
