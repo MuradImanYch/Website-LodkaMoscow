@@ -13,3 +13,10 @@ $('.thumbs span').click((e) => {
     $('.ourBoats article button').text(`Забронировать${slider[e.target.id.match(/\d+/g).join('')].price}`);
 });
 $('.ourBoats .thumbs span').last().css({opacity: '0'});
+
+// video
+$('.playWrap img').click(() => {
+    $('.playWrap').hide();
+    $('.video .wrap').css({filter: 'blur(0px)'});
+    $('video').trigger('play').attr({controls: 'true'});
+});
