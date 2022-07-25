@@ -25,7 +25,10 @@ const swiper = new Swiper('.swiper', {
 
 // video
 $('.playWrap img').click(() => {
+  setTimeout(() => {
     $('.playWrap').hide();
     $('.video .wrap').css({filter: 'blur(0px)'});
-    $('video').trigger('play').attr({controls: 'true'});
+  }, 500);
+    var symbol = $(".video iframe")[0].src.indexOf("?") > -1 ? "&" : "?";
+    $(".video iframe")[0].src += symbol + "autoplay=1";
 });
