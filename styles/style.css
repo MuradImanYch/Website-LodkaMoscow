@@ -1,4 +1,10 @@
 @media (max-width: 1024px) {
+    footer .madeBy {
+        margin: 40px 0;
+    }
+    footer {
+        height: auto !important;
+    }
     .swiper-slide {
         flex-direction: column;
         align-items: center;
@@ -618,6 +624,15 @@ footer span {
     .ourBoats h2 {
         margin: 0 0 0 -50px;
     }
+    footer .madeBy {
+        display: flex;
+        align-items: flex-end;
+        padding: 0 0 65px 0;
+    }
+    footer .container {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 @media (min-width: 1336px) {
@@ -825,4 +840,21 @@ header .headerBottom .container p {
 header .headerBottom .inner {
     display: flex;
     justify-content: center;
+}
+footer .madeBy {
+    font-family: 'HelveticaNeueCyrMiddle';
+    letter-spacing: 1px;
+}
+footer .madeBy a {
+    margin: 0 0 0 10px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    color: #fff;
+}
+footer .madeBy a:hover {
+    transition: 0.4s;
+    opacity: 0.5;
+}
+footer .madeBy {
+    color: #fff;
 }
